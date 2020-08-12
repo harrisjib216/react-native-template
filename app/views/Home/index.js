@@ -10,7 +10,7 @@ import {
  * app components
 */
 import {
-    ScreenContainer,
+    SafeScreen,
     Button,
 } from "../../components";
 
@@ -20,9 +20,9 @@ import {
 */
 export default function Home() {
     return (
-        <ScreenContainer>
+        <SafeScreen>
             <Button />
 
-        </ScreenContainer>
+        </SafeScreen>
     );
 };

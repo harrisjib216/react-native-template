@@ -1,7 +1,7 @@
 /**
  * Component Imports
 */
-import ScreenContainer from "./ScreenContainer";
+import SafeScreen from "./SafeScreen";
 import Button from "./Button";
 
 
@@ -9,6 +9,6 @@ import Button from "./Button";
  * Component Exports
 */
 export {
-    ScreenContainer,
+    SafeScreen,
     Button,
 };

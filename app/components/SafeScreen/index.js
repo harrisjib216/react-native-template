@@ -10,7 +10,7 @@ import {
 /**
  * Present safe view for each screen
 */
-export default function ScreenContainer(props) {
+export default function SafeScreen(props) {
     return (
         <SafeAreaView>
             {props.children}

@@ -2,7 +2,7 @@
  * App imports
 */
 import {AppRegistry} from 'react-native';
-import Router from "./src/routing/index";
+import Router from "./app/routing/index";
 import {name as appName} from './app.json';
 
 
